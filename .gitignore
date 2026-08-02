@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+.build/
+.dist/
+
+# Production
+/build
+/dist
+
+# Local env files (do NOT commit real keys)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Debug
+.eslintcache
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vercel / build outputs
+.vercel/
+.vercel_build_output/
+
+# Misc
+.env.test
+
+# pnpm store (local caches)
+.pnpm-store/
+
+# Optional: lockfile is usually committed for reproducible installs
+# pnpm-lock.yaml
